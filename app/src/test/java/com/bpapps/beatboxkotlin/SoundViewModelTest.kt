@@ -22,7 +22,7 @@ class SoundViewModelTest {
     }
 
     @Test
-    fun exposesSoundNameASTitle() {
+    fun exposesSoundNameAsTitle() {
         assertThat(subject.title, `is`(sound.name))
     }
 
